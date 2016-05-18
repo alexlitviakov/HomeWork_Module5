@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*BACKGROUND*/
+
+body .background {
+	width: 1215px;
+	height: 1062px;
+	margin: 0 auto;
+	border: 1px solid #4c4f50;
+	border-top: none;
+	background: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 110%;
+	font-family: Tahoma;
+}
+/*NAVIGATOR*/
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+li a{
+	display: block;
+	padding: 0 10px;
+	color: #60b5ed;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+.container {
+	
+	padding-left: 510px;
+}
+
+.menu {
+
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	background: #074f8d;
+}
+
+
+li a:hover {
+	background: #4eabda;
+	color: #fff;
+	font-size: 14px;
+
+}
+
+/*FORM*/
+
+div .text {
+	width: 560px;
+	height: 62px;
+	margin: 213px auto 1px;
+	padding-top: 20px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	
+}
+
+.form {
+	width: 560px;
+	height: 550px;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.form form {
+	margin: o auto;
+	padding-top: 20px;
+}
+
+input,
+button {
+	display: block;
+	height: 35px;
+	width: 235px;
+	margin: 20px auto;
+}
+
+.checkbox input {
+
+	display: inline;
+	height: 15px;
+	width: 15px;
+	
+	
+	
+}
+.checkbox span {
+	color: #ccc;
+
+}
+

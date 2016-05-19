@@ -7,6 +7,7 @@
 </head>
 <body>
     <div class="background">
+		<!-- Menu -->
 		<nav class="menu">
 			<div class="container">
 				<ul>
@@ -15,40 +16,56 @@
 					<li><a href="#">Forum</a></li>
 					<li><a href="#">Contato</a></li>
 					<li><a href="#">Ajuda</a></li>
-					<li><a href="#"><!-- <img src="img/img.png" alt="Flag">  -->Minhas Ofertas</a></li>
+					<li><a href="#"><!-- <img src="img/img.png" alt="Flag"> --> Minhas Ofertas</a></li>
 					<li><a href="#">Ola! Entrar ou Cadastre-se</a></li>
 				</ul>
 			</div>
 		</nav>
-		<content>
-			<div class="text">
-				<p>Cadastre-se</p>
-			</div>
-			<div class="form">
-				<form>
-					<div class="Facebook">
-					<button type="submit">Log In with Facebook</button>
-					</div>
-					<div class="input">
-					<input type="text" name="First name" placeholder="First name">
-					<input type="text" name="Last name" placeholder="Last name">
-					<input type="email" name="Email address" placeholder="Email Address">
-					<input type="password" name="Password" placeholder="Password">
-					<input type="password" name="Password Confirm" placeholder="Password Confirm">
-					<div class="checkbox">
-						<input type="checkbox" name="">
-						<span>Send me Youbike updates and tips</span>
-					</div>
-					<button type="submit" required>Create my Account</button>
+		<!-- First block -->
+		<div class="text">
+			<p>Cadastre-se</p>
+		</div>
+	<!-- Second block -->
+	<!-- Fblogin -->
+		<div class="form">
+			<form>
+				<div class="fblogin">
+                    <div class="fblogo">
+                        <h1>f</h1>
+                    </div>
+                    <div class="fbtext">
+                        <p>Log in<span> with </span>Facebook</p>
+                        <p>></p>
+                    </div>
+                </div>
+	<!-- line in block -->
+	 			<div class="ou-line">
+	 				<h1 class="line">  OU  </h1>
+	 			</div>
 
-				</form>
-			</div>
-		</content>
-
+		<!-- FORMS_INPUT  first_part-->
+				<div class="input">
+					<input class="first-part" type="text" name="First name" placeholder="First Name" required>
+					<input class="first-part" type="text" name="Last name" placeholder="Last Name" required>
+					<input class="first-part" type="email" name="Email Address" placeholder="Email Address" required>
+					<input class="first-part" type="password" name="Password" placeholder="Password" required>
+					<input class="first-part" type="password" name="Password Confirm" placeholder="Password Confirm" required>
+				</div>
+	<!-- Checkbox -->
+				<div class="checkbox">
+					<input id="subscribe" type="checkbox" required>
+					<label for="subscribe"><span>Send me Youbike updates and tips</span></label>
+				</div>
+	<!-- Bottom_create -->
+				<div class="create-account">
+					<input type="submit" value="Create my Account">
+				</div>
+	<!-- FOOTER -->
+				<div class="footer">
+					<p>By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</p>
+				</div>
+			</form>
+		</div>
 	</div>	
-
-
-    
-   
 </body>
 </html>
